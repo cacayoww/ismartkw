@@ -15,10 +15,10 @@
         <div class="col d-lg-flex d-none justify-content-start align-items-end">
             <div class="row w-100">
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+                    <button type="button" class="btn btn-primary rounded-pill">Primary</button>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+                    <button type="button" class="btn btn-primary rounded-pill">Primary</button>
 
                 </div>
                 <div class="col">
@@ -38,11 +38,10 @@
         <div class="col d-lg-none d-flex justify-content-start align-items-end">
             <div class="row w-100">
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+                    <button type="button" class="btn btn-primary rounded-pill">Primary</button>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
-
+                    <button type="button" class="btn btn-primary rounded-pill">Primary</button>
                 </div>
                 <div class="col">
                     <div class="input-group">
