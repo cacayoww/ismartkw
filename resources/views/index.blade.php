@@ -72,16 +72,108 @@
                 <div class="d-flex" style="flex-direction: row;">
                     <p style="margin: 0; font-family: Nunito; font-size: 20px; font-weight: 700; line-height: 28px; text-align: left; color: #38B2AC;">Working</p>
                     <div class="vr" style="margin-left: 11px; margin-right: 11px;"></div>
-                    <nav style="--bs-breadcrumb-divider: '>'; padding-bottom: 0;" aria-label="breadcrumb">
+                    <nav class="br-nav" style="--bs-breadcrumb-divider: '>'; padding-bottom: 0;" aria-label="breadcrumb">
                         <ol class="breadcrumb" style="margin:0px">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            <li class="breadcrumb-item"><a href="#">Data dan Dokumen Karyawan</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Detail Data Karyawan</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid pt-4 px-4">
+                <div class="bg-white text-center rounded" style="border: 1px solid #CBD5E0; box-shadow: 0px 0px 2px 0px #00000033; box-shadow: 0px 2px 10px 0px #0000001A;">
+                    <div class="d-flex align-items-center px-3" style="margin: 0px;">
+                        <p style="margin-top: 4px; margin-bottom: 4px; font-weight: 600;">Detail Data Karyawan - EBKP</p>
+                    </div>
+                    <hr style="margin:0px" />
+                    <div class="d-flex px-3" style="margin-top: 12px;">
+                        <div class="row w-50">
+                            <p style="margin: 0px; text-align: start; font-weight: 600;">NIK Karyawan</p>
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <!-- <div class="input-group-append">
+                                  <span class="input-group-text">.00</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex px-3 pt-3">
+                        <div class="row w-100">
+                            <div class="col-2 d-flex justify-content-start">
+                                <img src="img/user.jpg" alt="..." class="rounded-circle">
+                            </div>
+                            <div class="col-4 d-flex justify-content-start align-items-start"
+                                style="flex-direction: column;">
+                                <p>Nama/NIK</p>
+                                <p style="margin: 1px">....</p>
+                                <p style="margin: 1px">....</p>
+                                <p style="margin: 1px">....</p>
+
+                            </div>
+                            <div class="col d-flex justify-content-start align-items-end">
+                                <div class="row w-100">
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+
+                                    </div>
+                                    <div class="col">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <!-- <div class="input-group-append">
+                                              <span class="input-group-text">.00</span>
+                                            </div> -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav nav-underline nav-fill nav-justified px-3 " style="--bs-nav-underline-gap: 0rem;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+                    </ul>
+                    <div class="px-3">
+                        <hr style="margin: 0px;" />
+                    </div>
+                    <div class="container-fluid p-4">
+
+                    </div>
+                </div>
+            </div>
     </div>
+
+
     <!-- Content End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
