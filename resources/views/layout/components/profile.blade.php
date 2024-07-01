@@ -14,10 +14,10 @@
         <div class="col d-flex justify-content-start align-items-end">
             <div class="row w-100">
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+                    <button type="button" class="btn update rounded-pill m-2" style="--bs-btn-padding-x: 1.25rem">Update Dokumen</button>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill m-2">Primary</button>
+                    <button type="button" class="btn rounded-pill m-2">Download DRP</button>
 
                 </div>
                 <div class="col">
