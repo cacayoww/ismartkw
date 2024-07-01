@@ -1,5 +1,5 @@
 :root {
-    /* --primary: #009CFF; */
+    --primary: #319795;
     --light: #F3F6F9;
     --dark: #191C24;
 }
@@ -148,7 +148,7 @@ body {
     background-color: #E2E8F0;
 }
 
-.content .nav-link {
+.content .nav-pills .nav-link {
     display: block;
     font-size: var(--bs-nav-link-font-size);
     font-family: Nunito;
@@ -163,6 +163,19 @@ body {
 .content .br-nav {
     display: flex;
     align-items: center;
+}
+
+.content .nav-underline .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: var(--bs-nav-underline-border-width) solid #E2E8F0;
+    --bs-nav-link-color: #E2E8F0;
+}
+
+.content .nav-underline .nav-link.active, .nav-underline .show > .nav-link {
+    font-weight: 700;
+    color: var(--bs-nav-underline-link-active-color);
+    border-bottom-color: currentcolor;
 }
 
 .breadcrumb-item {
