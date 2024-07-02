@@ -6,20 +6,18 @@
             </div>
             <div class="col-8 d-flex justify-content-start align-items-start" style="flex-direction: column;">
                 <p>Nama/NIK</p>
+                <p style="margin: 1px">Rayhan Raya Farabi</p>
+                <p style="margin: 1px">1202210082</p>
                 <p style="margin: 1px">....</p>
-                <p style="margin: 1px">....</p>
-                <p style="margin: 1px">....</p>
-
             </div>
         </div>
         <div class="col d-lg-flex d-none justify-content-start align-items-end">
             <div class="row w-100">
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill">Primary</button>
+                    <button type="button" class="btn rounded-pill m-1" style="--bs-btn-padding-x: 3rem">Update Dokumen</button>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="btn btn-primary rounded-pill">Primary</button>
-
+                    <button type="button" class="btn rounded-pill m-1">Download DRP</button>
                 </div>
                 <div class="col">
                     <div class="input-group">
