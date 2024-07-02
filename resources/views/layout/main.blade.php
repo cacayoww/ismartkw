@@ -51,9 +51,10 @@
                 </div>
 
                 @include('layout.components.profile')
-
+                <div class="mt-4">
+                    @include('layout.components.menu')
+                </div>
                 
-                @include('layout.components.menu')
 
                 <div class="container-fluid p-4">
                     @yield('content')

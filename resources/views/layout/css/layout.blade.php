@@ -1,5 +1,5 @@
 <style>
-    .col-3 button.btn{
+    button.btn{
         display: flex;
         flex-direction: column;
         justify-content: center;
